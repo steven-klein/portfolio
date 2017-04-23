@@ -13,3 +13,8 @@
 * [Github](https://github.com/steven-klein)
 * [NPM](https://www.linkedin.com/in/stevenpklein)
 * [LinkedIn](https://www.npmjs.com/~spklein)
+
+### Downloads
+
+* [Formatted Resume](https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-resume.pdf)
+* [Portfolio PDF](https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-portfolio.pdf)
