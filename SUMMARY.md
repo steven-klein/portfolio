@@ -10,6 +10,6 @@
 
 ### Links
 
-* [Github](http://github.com/)
-* [NPM](http://github.com/)
-* [LinkedIn](http://github.com/)
+* [Github](https://github.com/steven-klein)
+* [NPM](https://www.linkedin.com/in/stevenpklein)
+* [LinkedIn](https://www.npmjs.com/~spklein)
