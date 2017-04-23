@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio and resume as a GitBook",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-download-pdf-link": "^2.0.0",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-links": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run docs",
+    "docs": "cd docs && gitbook install && gitbook serve",
+    "docs:deploy": "bash ./build/update-docs.sh",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven-klein/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "resume"
+  ],
+  "author": "Steven Klein <steven.p.klein@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steven-klein/portfolio/issues"
+  },
+  "homepage": "https://github.com/steven-klein/portfolio#readme"
+}

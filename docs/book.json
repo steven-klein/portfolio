@@ -1,11 +1,15 @@
 {
+    "root": "docs",
     "title": "Steven Klein's Resume and Portfolio",
     "description": "An experienced full stack developer who’s equally comfortable developing on the frontend or backend, collaborating with others on design and strategies, discussing solutions with clients, and deploying products.",
     "author": "Steven Klein",
     "language": "en",
     "direction": "ltr",
-    "plugins": ["links", "-sharing"],
+    "plugins": ["links", "github", "-sharing"],
     "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/steven-klein/portfolio/"
+        },
         "sharing": {
             "facebook": false,
             "twitter": false,
