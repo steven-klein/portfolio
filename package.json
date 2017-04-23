@@ -15,7 +15,7 @@
   "scripts": {
     "test": "npm run docs",
     "docs": "cd docs && gitbook install && gitbook serve",
-    "docs:deploy": "bash ./build/update-docs.sh",
+    "docs:deploy": "bash ./build/update-docs.sh && npm version patch",
     "postversion": "git push && git push --tags"
   },
   "repository": {
