@@ -1,0 +1,36 @@
+{
+    "title": "Steven Klein's Resume and Portfolio",
+    "description": "An experienced full stack developer who’s equally comfortable developing on the frontend or backend, collaborating with others on design and strategies, discussing solutions with clients, and deploying products.",
+    "author": "Steven Klein",
+    "language": "en",
+    "direction": "ltr",
+    "plugins": ["links", "-sharing"],
+    "pluginsConfig": {
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        "links": {
+            "links": [
+                {
+                    "label": "Formatted Resume",
+                    "icon": "fa fa-file-pdf-o",
+                    "url": "/assets/downloads/steven-klein-resume.pdf"
+                },
+                {
+                    "label": "Download PDF",
+                    "icon": "fa fa-file-pdf-o",
+                    "url": "#"
+                }
+            ]
+        }
+    }
+}
