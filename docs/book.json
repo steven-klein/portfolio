@@ -26,12 +26,12 @@
                 {
                     "label": "Formatted Resume",
                     "icon": "fa fa-file-pdf-o",
-                    "url": "https://github.com/steven-klein/portfolio/blob/gh-pages/assets/downloads/steven-klein-resume.pdf"
+                    "url": "https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-resume.pdf"
                 },
                 {
                     "label": "Download PDF",
                     "icon": "fa fa-file-pdf-o",
-                    "url": "https://github.com/steven-klein/portfolio/blob/gh-pages/assets/downloads/steven-klein-portfolio.pdf"
+                    "url": "https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-portfolio.pdf"
                 }
             ]
         }
