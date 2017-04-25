@@ -68,7 +68,7 @@ Lorem Ipsum
 __Tags__  
 Lorem, Ipsum
 
-## [Andy Mckee](http://www.andymckee.com/)
+## [Andy McKee](http://www.andymckee.com/)
 
 __Description__  
 Lorem Ipsum
