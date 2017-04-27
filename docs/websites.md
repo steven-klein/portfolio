@@ -1,6 +1,6 @@
 # Websites
 
-I've worked on numerous websites across varying industries, typically being involved from the initial meeting with a client to the final deployment.
+I've worked on numerous websites across varying industries, typically being involved from the initial meeting with a client to the final deployment.  Below are a few examples of sites I've had a heavy hand in.
 
 ## [Breakstation Creative](https://www.brkstn.com)
 
