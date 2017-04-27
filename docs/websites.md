@@ -47,7 +47,7 @@ __Highlights__
 Creating the foundation for this project and it's continuous development cycle year over year has given me great insight into creating better abstractions for long term development and helped me learn to effectively introduces new features without breaking legacy features.  These sites were initially being built independently, but I quickly realized we couldn't scale with that, the end resulted in a collection of sites that are much easier to maintain.
 
 __Tags__  
-HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Copy Writing, Responsive
+HTML5, PostCSS, cssnext, JavaScript, Bootstrap, UI, Design, Theming, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Copy Writing, Responsive
 
 ## [Andy McKee](http://www.andymckee.com/)
 
