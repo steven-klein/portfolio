@@ -4,6 +4,10 @@
     "author": "Steven Klein",
     "language": "en",
     "direction": "ltr",
+    "styles": {
+        "website": "styles/website.css",
+        "pdf": "styles/pdf.css"
+    },
     "plugins": ["github", "-sharing"],
     "pluginsConfig": {
         "github": {
