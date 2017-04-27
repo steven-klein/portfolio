@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
+    "gitbook-cli": "^2.3.0",
     "gitbook-plugin-download-pdf-link": "^2.0.0",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-links": "^3.0.1"
