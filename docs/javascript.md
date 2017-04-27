@@ -13,6 +13,17 @@ As a companion application, I created a [snippet builder](http://mi-script-build
     <p><img src="/assets/images/projects/old-crow-site-merch.jpg"/></p>
 </div>
 
+```html
+<script
+    src="//assets.missingink.com/js/mi-js-store/mistore.min.js"
+    data-mistore="crowmedicine"
+    data-useNavigation="true"
+    data-organizeByCategory="true"
+    data-buttonBackgroundColor="#6A451F"
+    data-buttonTextColor="#FFF3E6"
+></script>
+```
+
 __Highlights__  
 Writing the store drop in with Vanilla JavaScript was an additional challenge that I felt was absolutely necessary since I was keen on avoiding dumping duplicate libraries on sites.  The availability of this JavaScript has made it very simple for default stores to exist, when a client doesn't have a website of their own.  Additionally, while the snippet has a handle full of options for colors and features it can also inherit a sites styles or be completely restyled with custom CSS.
 
