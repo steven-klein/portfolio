@@ -6,7 +6,7 @@
     * [Web Apps](webapps.md)
     * [E-commerce](ecommerce.md)
     * [Dev Tools](tools.md)
-    * [Javascript Libraries](javascript.md)
+    * [JavaScript Libraries](javascript.md)
     * [CSS Libraries](css.md)
     * [Mapping API's](maps.md)
 * [Resume](resume.md)
