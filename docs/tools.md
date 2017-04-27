@@ -1,7 +1,10 @@
 # Dev Tools
-Lorem ipsum
+
+Building a strong toolset for efficient development has been paramount for my career and is something that I'm constantly refining and improving.
 
 ## [Frontend Assets Boilerplate](https://github.com/steven-klein/rollup-postcss-cssnext)
+
+When doing frontend development compiling assets effectively is always an important part of your workflow.  After working with many CSS pre and post processors, JS bundlers, minifiers, task runners, and modules of all sorts NPM scripts that make direct calls to various modules has become my method of choice bundling assets.  Typically, I use PostCSS with cssnext for style development and Rollup.js + Buble for JavaScript (when I'm not using a reactive JS framework) and BrowserSync for live updating, leveraging the proxy feature for applications that have dynamic backend programming.  I'm a huge fan of Yarn for handling my package dependencies to guarantee any developers collaborating on a project are using the same version of each module.
 
 ```json
 {
@@ -35,16 +38,17 @@ $ npm run build
 $ npm run dev
 ```
 
-__Description__  
-Lorem Ipsum
-
 __Highlights__  
-Lorem Ipsum
+NPM Scripts are easy to write, can be given aliases that are intuitive for devlopers and chained together for a very effective workflow.  Gulp and Grunt are great, but I often wonder if the additional layer is really necessary.  An easy way to help developers adapt to using NPM scripts, is to create aliases in existing processes for task runners like ``build: gulp`` or ``dev: gulp watch``.
 
 __Tags__  
-Lorem, Ipsum
+NPM Scripts, PostCSS, cssnext, JavaScript, Rollup.js, Buble, CPX, BrowserSync, npm-run-all
 
 ## [Project Sync](https://www.npmjs.com/package/project-sync)
+
+I remember trying to FTP my files to the server.  I even remember editing live files via FTP, boy how the times have changed.  I created Project Sync, so I could stop fumbling around with rsync from the command line and instead quickly push my changes up to any number a servers with a simple command ``project-sync production up``.
+
+I'm hoping to continue development of this module and have been designing a version 2 that will transition to ES2015 syntax and include a few new features.
 
 ```json
 {
@@ -74,16 +78,15 @@ $ project-sync production up
 $ project-sync staging up
 ```
 
-__Description__  
-Lorem Ipsum
-
 __Highlights__  
-Lorem Ipsum
+Project Sync is easy to integrate into any existing workflow, or can be installed globally to be used in as needed throughout project directories.  With the security of SSH, and the speed at which rsync works pushing up changes in environments that can handle a fraction of a second of potential downtime, this has become an extremely effective way for me to deploy projects.
 
 __Tags__  
-Lorem, Ipsum
+Node.js, rsync, deployment
 
 ## [Stage CLI/Stage Templates](https://www.npmjs.com/package/stage-cli)
+
+Organization and clarity is important when you want to work in collaborative environments, and initiating projects is the best place to start with production in mind.  Too often developers use the cumbersome process of cloning a repo only to remove the history in order to start with some boilerplate or scaffolding for a project.  What's worse, is the README and name properties in files like package.json don't make sense for the project.  I found Vue.js' command line utility for starting Vue based projects to be an awesome way to start projects, so I forked it and start every project big or small using a series of templates for my most common project types.  The end result is a project that has a minimum README necessary for other developers to get involved, plus any number of properties, scaffolding, scripts, and tests in place for creating real production ready projects.
 
 ```bash
 # Start a new wordpress project
@@ -93,16 +96,17 @@ $ stage-init bitbucket.org:brkstn/wordposer my-new-site
 $ stage-init html-handlebars my-html-site
 ```
 
-__Description__  
-Lorem Ipsum [Templates](https://github.com/stage-templates)
-
 __Highlights__  
-Lorem Ipsum
+In addition to the command line tool I've started [Stage Templates](https://github.com/stage-templates) where I hope to provide a better set of boilerplates for popular frameworks.  In my current positions private repos, we're already starting all projects with this tool.
 
 __Tags__  
-Lorem, Ipsum
+command line, tools, boilerplate, production
 
 ## Vagrant LAMP Stack
+
+The lasted MacOS update broke your MAMP stack now what?  Download Virtual Box and Vagrant and never look back.  While working at Breakstation Creative I refined the development process with not just a series of workflow tools but also a virtual environment that helps guarantee each developer get's the same results as they can expect in the production environment.
+
+As much as I've readily enjoyed Vagrant I'm looking forward to working with Docker more and more as a portable environment that can stay and be easily adapted for each project.
 
 ```bash
 # Install Virtual Box: https://www.virtualbox.org/wiki/Downloads
@@ -119,11 +123,8 @@ $ git clone git@bitbucket.org:organization/vagrant-repo.git ~/Sites/apache.local
 $ cd ~/Sites/apache.local && vagrant up
 ```
 
-__Description__  
-Lorem Ipsum
-
 __Highlights__  
-Lorem Ipsum
+The primary LAMP stack leveraged Apaches VirtualDocumentRoot and DNSmasq in order to easily map any example.dev url to a vhost directory of the same name.
 
 __Tags__  
-Lorem, Ipsum
+Vagrant, Virtual Box, LAMP, MAMP
