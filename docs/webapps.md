@@ -15,7 +15,7 @@ __Highlights__
 This has been a very challenging project that has really helped me focus on separation of concerns, and gave me an opportunity to dig deep into Vue.js, Vuex, Vue-Router, Axios and more.  As an experiment I used Electron and Cordova to bundle the application as a MacOS, Windows, Linux, iOS, and Android native app and was successful in all instances and found the process the be surprisingly straightforward for an SPA written with Vue.js.  Additionally, this project makes extensive use of the ES2015 module imports, spread syntax, and arrow functions.
 
 __Tags__  
-Vue.js, Vuex, Vue-Router, Axios, PostCSS, cssnext, JavaScript, Laravel, REST, JWT, Electron, Cordova, UI, UX, Responsive, ES1025
+Vue.js, Vuex, Vue-Router, Axios, PostCSS, cssnext, JavaScript, PHP, Laravel, REST, JWT, Electron, Cordova, UI, UX, Responsive, ES1025
 
 ## Childcare Matters
 
@@ -30,7 +30,7 @@ __Highlights__
 Initially written with Vue.js version 1 using CommonJS modules I later updated the application to ES2015 and import/export syntax.  By introducing Rollup.js into the build process I reduced the size of the applications Javascript output by 35%.
 
 __Tags__  
-Vue.js, Vue-Router, PostCSS, cssnext, JavaScript, Bootstrap, Laravel, REST, UI, UX, Responsive, ES1025
+Vue.js, Vue-Router, PostCSS, cssnext, JavaScript, Bootstrap, PHP, Laravel, REST, UI, UX, Responsive, ES1025
 
 ## S3 Photo Uploader
 
@@ -46,4 +46,4 @@ __Highlights__
 While Laravel handles the user authentication, I was able to handle AWS authentication with the AWS JavaScript SDK for the Browser, additionally we required image processing to create a large, and thumbnail sized image before upload which is also handled in the browser using Canvas.  I originally wrote an MVP version of this application with Angular V1, but later turned to Vue.js for what was ultimately a very quick rewrite.
 
 __Tags__  
-Vue.js, Vue-Router, PostCSS, cssnext, JavaScript, Material UI, Laravel, UI, UX, Responsive, Canvas, AWS, S3
+Vue.js, Vue-Router, PostCSS, cssnext, JavaScript, Material UI, PHP, Laravel, UI, UX, Responsive, Canvas, AWS, S3

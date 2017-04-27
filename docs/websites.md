@@ -32,7 +32,7 @@ __Highlights__
 Using PostCSS-cssnext in conjunction with the parent-child theming feature in WordPress the sites maintain similar feature sets and UI elements without having to replicate programming keeping the build nice and DRY.  By changing a few cssnext variables each site quickly has a unique look.  This build was created using WordPoser a fork of the Bedrock WordPress boilerplate that's ready to go with a common toolset for rapid development.
 
 __Tags__  
-HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Responsive
+HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, PHP, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Responsive
 
 ## [Dreamcatcher Events](http://dreamcatcher-events.com)
 
@@ -47,7 +47,7 @@ __Highlights__
 Creating the foundation for this project and it's continuous development cycle year over year has given me great insight into creating better abstractions for long term development and helped me learn to effectively introduces new features without breaking legacy features.  These sites were initially being built independently, but I quickly realized we couldn't scale with that, the end resulted in a collection of sites that are much easier to maintain.
 
 __Tags__  
-HTML5, PostCSS, cssnext, JavaScript, Bootstrap, UI, Design, Theming, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Copy Writing, Responsive
+HTML5, PostCSS, cssnext, JavaScript, Bootstrap, UI, Design, Theming, PHP, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Copy Writing, Responsive
 
 ## [Andy McKee](http://www.andymckee.com/)
 
@@ -62,7 +62,7 @@ __Highlights__
 While the majority of this site is very straightforward in terms of content and presentation, but the visual adaptation of the site was incredibly rewarding to work on.  The sky changes between, dawn, daytime, dusk, and nighttime based on the end users location and current time of day and logically makes the choice based on their expected sunrise and sunset values.  Additionally, the current moon phase is present if the moon is currently above the horizon in the users location and the moon was created with just CSS.
 
 __Tags__  
-HTML5, PostCSS, cssnext, JavaScript, UI, Design, Adaptive UI, Theming, WordPress, Responsive
+HTML5, PostCSS, cssnext, JavaScript, UI, Design, Adaptive UI, Theming, PHP, WordPress, Responsive
 
 ## [Chauhan Nashville](https://chauhannashville.com)
 
@@ -73,7 +73,7 @@ Just a simple restaurant website.  I worked on the initial design, layout, and p
 </div>
 
 __Highlights__  
-HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, WordPress, Bedrock, WordPoser, Responsive
+HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, PHP, WordPress, Bedrock, WordPoser, Responsive
 
 __Tags__  
 Lorem, Ipsum
@@ -91,4 +91,4 @@ __Highlights__
 This site has seen a few changes over the years and now has reduced functionality, but the core JavaScript has proven to be surprisingly robust.  With the AJAX methods being written in the peak of the jQuery era it serves as a reminder to take your time planning the feature set so the execution and maintenance are as smooth as possible.
 
 __Tags__  
-HTML5, JavaScript, jQuery, AJAX, UI, Design, Theming, WordPress, Bedrock, WordPoser, Responsive
+HTML5, JavaScript, jQuery, AJAX, UI, Design, Theming, PHP, WordPress, Bedrock, WordPoser, Responsive
