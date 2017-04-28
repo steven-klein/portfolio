@@ -1,7 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* Projects
+
+### Projects
+
     * [Websites](websites.md)
     * [Web Apps](webapps.md)
     * [E-commerce](ecommerce.md)
@@ -9,7 +11,9 @@
     * [JavaScript Libraries](javascript.md)
     * [CSS Libraries](css.md)
     * [Mapping API's](maps.md)
-* Resume
+
+### Resume
+
     * [Summary](resume.md#summary)
     * [Experience](resume.md#experience)
     * [Skills](resume.md#skills)
