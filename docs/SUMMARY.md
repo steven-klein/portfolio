@@ -25,4 +25,3 @@
 ### Downloads
 
 * [Formatted Resume](https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-resume.pdf)
-* [Portfolio PDF](https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-portfolio.pdf)
