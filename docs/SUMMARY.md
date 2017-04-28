@@ -4,21 +4,21 @@
 
 ### Projects
 
-    * [Websites](websites.md)
-    * [Web Apps](webapps.md)
-    * [E-commerce](ecommerce.md)
-    * [Dev Tools](tools.md)
-    * [JavaScript Libraries](javascript.md)
-    * [CSS Libraries](css.md)
-    * [Mapping API's](maps.md)
+* [Websites](websites.md)
+* [Web Apps](webapps.md)
+* [E-commerce](ecommerce.md)
+* [Dev Tools](tools.md)
+* [JavaScript Libraries](javascript.md)
+* [CSS Libraries](css.md)
+* [Mapping API's](maps.md)
 
 ### Resume
 
-    * [Summary](resume.md#summary)
-    * [Experience](resume.md#experience)
-    * [Skills](resume.md#skills)
-    * [Education](resume.md#education)
-    * [Certifications](resume.md#certifications)
+* [Summary](resume.md#summary)
+* [Experience](resume.md#experience)
+* [Skills](resume.md#skills)
+* [Education](resume.md#education)
+* [Certifications](resume.md#certifications)
 
 ### Links
 
