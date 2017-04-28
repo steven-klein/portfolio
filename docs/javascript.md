@@ -32,7 +32,7 @@ JavaScript, PostCSS, cssnext, UI, Design, Responsive, Vue.js
 
 ## [BandsInTown API Wrapper](https://www.npmjs.com/package/bandsintown-events)
 
-Working in Nashville for many years has meant working heavily in the music industry, with tour dates listings always being a top priority.  Widgets are great when you need something fast and can overlook their, all too common inability to integrate well with a site, but what's the point when you can get custom markup and then apply _your_ styles by tapping into an API.  A wrote a simple but effective wrapper for the BandsInTown API that lets me quickly call for data and apply to a template.  John Resig's [micro template](https://johnresig.com/blog/javascript-micro-templating/) has always been a favorite choice for lightweight deployments.
+Working in Nashville for many years has meant working heavily in the music industry, with tour dates listings always being a top priority.  Widgets are great when you need something fast and can overlook their, all too common inability to integrate well with a site, but what's the point when you can get custom markup and then apply _your_ styles by tapping into an API.  I wrote a simple but effective wrapper for the BandsInTown API that lets me quickly call for data and apply to a template.  John Resig's [micro template](https://johnresig.com/blog/javascript-micro-templating/) has always been a favorite choice for lightweight deployments.
 
 <div class="image-grid">
     <p><img src="/assets/images/projects/bbr-tour.jpg"/></p>

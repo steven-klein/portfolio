@@ -36,7 +36,7 @@ HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, PHP, WordPress, Bedroc
 
 ## [Dreamcatcher Events](http://dreamcatcher-events.com)
 
-Dreamcatcher Events is all about giving people an opportunity to learn, collaborate, and rock with their musical heroes in some of the most beautiful and exciting settings in the world.  Producing 8-15 camps a year that all require unique websites to be deployed within a short 2-3 month time frame.  I developed a common set of shared UI elements, layouts, and a workflow that helps produce a site in as little as 2 weeks.  I consulted with the Art Director on each camps design concept and then initiate frontend development on the site based on a simple style guide.  Content is organized and added to a singular CMS in tandem with these steps which is the core this rapid development process.
+Dreamcatcher Events is all about giving people an opportunity to learn, collaborate, and rock with their musical heroes in some of the most beautiful and exciting settings in the world.  Producing 8-15 camps a year that all require unique websites to be deployed within a short 2-3 month time frame.  I developed a common set of shared UI elements, layouts, and a workflow that helps produce a site in as little as 2 weeks.  I consulted with the Art Director on each camps design concept and then initiate frontend development on the site based on a simple style guide.  Content is organized and added to a singular CMS, in tandem with design and build process, which is the core of this rapid development process.
 
 <div class="image-grid responsive">
     <p><img src="/assets/images/projects/dce.jpg"/></p>
@@ -59,7 +59,7 @@ Andy McKee is an incredible guitarist with a fun personality.  His willingness t
 </div>
 
 __Highlights__  
-While the majority of this site is very straightforward in terms of content and presentation, but the visual adaptation of the site was incredibly rewarding to work on.  The sky changes between, dawn, daytime, dusk, and nighttime based on the end users location and current time of day and logically makes the choice based on their expected sunrise and sunset values.  Additionally, the current moon phase is present if the moon is currently above the horizon in the users location and the moon was created with just CSS.
+While the majority of this site is very straightforward in terms of content and presentation, the visual adaptation concept of the site was incredibly rewarding to work on.  The sky changes between, dawn, daytime, dusk, and nighttime based on the end users location and current time of day and logically makes the choice based on their expected sunrise and sunset values.  Additionally, the current moon phase is present if the moon is currently above the horizon in the users location and the moon was created with just CSS.
 
 __Tags__  
 HTML5, PostCSS, cssnext, JavaScript, UI, Design, Adaptive UI, Theming, PHP, WordPress, Responsive

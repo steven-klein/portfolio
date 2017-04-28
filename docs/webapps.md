@@ -34,7 +34,7 @@ Vue.js, Vue-Router, PostCSS, cssnext, JavaScript, Bootstrap, PHP, Laravel, REST,
 
 ## S3 Photo Uploader
 
-Fan's love a chance to meet the musicians they love, and they cherish that meet and greet photo.  Broken Bow Records Music Group need a dead simple way for their road teams to upload those images so they could be made available on the artists websites.  A major challenge they faced was trying to avoid custom permissions in the sites CMS's or allowing access to sensitive social media accounts like Facebook.  The solution was a simple interface where team members could upload large sets of high resolution images to Amazon S3 with relative ease.  Using Laravel to handle account management and authentication, and Vue.js for the FrontEnd UI/UX I was able to create a simple solution that any of their team members can easily work with.
+Fan's love a chance to meet the musicians they love, and they cherish that meet and greet photo.  Broken Bow Records Music Group needed a dead simple way for their road teams to upload those images so they could be made available on the artists websites.  A major challenge they faced was trying to avoid custom permissions in the sites CMS's or allowing access to sensitive social media accounts like Facebook.  The solution was a simple interface where team members could upload large sets of high resolution images to Amazon S3 with relative ease.  Using Laravel to handle account management and authentication, and Vue.js for the FrontEnd UI/UX I was able to create a simple solution that any of their team members can easily work with.
 
 In addition to the uploader I created a companion WordPress plugin that retrieves the images from S3 for display on the artists websites.
 
