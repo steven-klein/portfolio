@@ -4,7 +4,7 @@ Building a strong toolset for efficient development has been paramount for my ca
 
 ## [Frontend Assets Boilerplate](https://github.com/steven-klein/rollup-postcss-cssnext)
 
-When doing frontend development compiling assets effectively is always an important part of your workflow.  After working with many CSS pre and post processors, JS bundlers, minifiers, task runners, and modules of all sorts NPM scripts that make direct calls to various modules has become my method of choice bundling assets.  Typically, I use PostCSS with cssnext for style development and Rollup.js + Buble for JavaScript (when I'm not using a reactive JS framework) and BrowserSync for live updating, leveraging the proxy feature for applications that have dynamic backend programming.  I'm a huge fan of Yarn for handling my package dependencies to guarantee any developers collaborating on a project are using the same version of each module.
+Modern front-end development requires an effective method for compiling, processing, and minifying assets.  After working with many CSS pre and post processors, JS bundlers, minifiers, task runners, and modules of all sorts, I've found NPM scripts that make direct calls to various modules to be the best all around method for bundling assets.  Typically, I use PostCSS with cssnext for style development and Rollup.js + Buble for JavaScript (when I'm not using a reactive JS framework) and BrowserSync for live updating, leveraging the proxy feature for applications that have dynamic backend programming.  I'm a huge fan of Yarn for handling my package dependencies to guarantee any developers collaborating on a project are using the same version of each module.
 
 ```json
 {
@@ -46,7 +46,7 @@ NPM Scripts, PostCSS, cssnext, JavaScript, Rollup.js, Buble, CPX, BrowserSync, n
 
 ## [Project Sync](https://www.npmjs.com/package/project-sync)
 
-I remember trying to FTP my files to the server.  I even remember editing live files via FTP, boy how the times have changed.  I created Project Sync, so I could stop fumbling around with rsync from the command line and instead quickly push my changes up to any number a servers with a simple command ``project-sync production up``.
+I remember trying to FTP my files to the server.  I even remember editing live files via FTP, boy how the times have changed.  I created Project Sync, so I could stop fumbling around with rsync from the command line and instead quickly push my changes up to any number of servers with a simple command ``project-sync production up``.
 
 I'm hoping to continue development of this module and have been designing a version 2 that will transition to ES2015 syntax and include a few new features.
 
@@ -79,7 +79,7 @@ $ project-sync staging up
 ```
 
 __Highlights__  
-Project Sync is easy to integrate into any existing workflow, or can be installed globally to be used in as needed throughout project directories.  With the security of SSH, and the speed at which rsync works pushing up changes in environments that can handle a fraction of a second of potential downtime, this has become an extremely effective way for me to deploy projects.
+Project Sync is easy to integrate into any existing workflow, or can be installed globally to be used as needed throughout project directories.  With the security of SSH, and the speed at which rsync works pushing up changes in environments that can handle a fraction of a second of potential downtime, this has become an extremely effective way for me to deploy projects.
 
 __Tags__  
 Node.js, rsync, deployment
@@ -97,14 +97,14 @@ $ stage-init html-handlebars my-html-site
 ```
 
 __Highlights__  
-In addition to the command line tool I've started [Stage Templates](https://github.com/stage-templates) where I hope to provide a better set of boilerplates for popular frameworks.  In my current positions private repos, we're already starting all projects with this tool.
+In addition to the command line tool I've started [Stage Templates](https://github.com/stage-templates) where I hope to provide a better set of boilerplates for popular frameworks.  At my current position, we're already starting all projects with this tool.
 
 __Tags__  
 command line, tools, boilerplate, production
 
 ## Vagrant LAMP Stack
 
-The lasted MacOS update broke your MAMP stack now what?  Download Virtual Box and Vagrant and never look back.  While working at Breakstation Creative I refined the development process with not just a series of workflow tools but also a virtual environment that helps guarantee each developer get's the same results as they can expect in the production environment.
+The last MacOS update broke your MAMP stack, now what?  Download Virtual Box and Vagrant and never look back.  While working at Breakstation Creative I refined the development process with not just a series of workflow tools but also a virtual environment that helps guarantee each developer gets the same results that they should expect from the production environment.
 
 As much as I've readily enjoyed Vagrant I'm looking forward to working with Docker more and more as a portable environment that can stay and be easily adapted for each project.
 

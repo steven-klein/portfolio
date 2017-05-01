@@ -3,7 +3,7 @@ Mapping API's create so many possibilities for developers.  You can collect loca
 
 ## [Nashville Food Deserts](https://steven-klein.github.io/TLC-Food-Deserts-and-Community-Centers/)
 
-The Local Collaborative wants to make locally grown and produced goods available to everyone.  Especially to those who live in areas with limited access to grocers and transportation.  We've been working on a partnership with Community Centers, Libraries, and Public and Private Schools as potential pick up locations, specifically in food deserts.  Since accepting SNAP benefits online is still unavailable, the hope is we can handle SNAP transactions at affiliate pick up locations.  In order to really understand the viability of such an idea, we populated a map of the Nashville area with potential pickup locations and the USDA's data on food deserts.
+The Local Collaborative wants to make locally grown and produced goods available to everyone, especially to those who live in areas with limited access to grocers and transportation.  We've been working on a partnership with Community Centers, Libraries, and Public and Private Schools as potential pick up locations, specifically in food deserts.  Since accepting SNAP benefits online is still unavailable, the hope is we can handle SNAP transactions at affiliate pick up locations.  In order to really understand the viability of such an idea, we populated a map of the Nashville area with potential pickup locations and the USDA's data on food deserts.
 
 <div class="image-grid">
     <p><img src="/assets/images/projects/tlc-map.jpg"/></p>

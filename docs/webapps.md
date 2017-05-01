@@ -4,7 +4,7 @@ I relish every opportunity to work on Web Apps, have a great interest in Progres
 
 ## FillCircle
 
-Nashville based Missingink has been handling fulfillment services for it's own web stores for years, and it only made sense to expand that as a service, thus FillCircle was born.  In it's early stages FillCircle has been the primary fulfillment service provider for Pledge Music and one of the [most funded Kickstarter fashion campaigns](http://www.prnewswire.com/news-releases/zane-lampreys-adv3nture-hoodie-is-the-1-most-funded-kickstarter-fashion-project-ever-300339125.html).  I collaborated on the implementation and maintenance of the API written with Laravel, and introduced JSON Web Tokens as an authentication method.  I designed and programmed the FrontEnd SPA UI for the FillCircle team using Vue.js.
+Nashville based Missingink has been handling fulfillment services for it's own web stores for years, and it only made sense to expand that as a service, thus FillCircle was born.  In it's early stages FillCircle has been the primary fulfillment service provider for Pledge Music and one of [Kickstarter's most funded fashion campaigns](http://www.prnewswire.com/news-releases/zane-lampreys-adv3nture-hoodie-is-the-1-most-funded-kickstarter-fashion-project-ever-300339125.html).  I collaborated on the implementation and maintenance of the API written with Laravel, and introduced JSON Web Tokens as an authentication method.  I designed and programmed the FrontEnd SPA UI for the FillCircle team using Vue.js.
 
 <div class="image-grid responsive">
     <p><img src="/assets/images/projects/fillcircle.jpg"/></p>

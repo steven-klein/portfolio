@@ -1,6 +1,6 @@
 # Websites
 
-I've worked on numerous websites across varying industries, typically being involved from the initial meeting with a client to the final deployment.  Below are a few examples of sites I've had a heavy hand in.
+I've worked on numerous websites, typically being involved from the initial meeting with a client to the final deployment.  Below are a few examples of sites I've had a heavy hand in.
 
 ## [Breakstation Creative](https://www.brkstn.com)
 
@@ -12,14 +12,14 @@ While working at Breakstation Creative we were looking for an updated website th
 </div>
 
 __Highlights__  
-One of the things that was important to us for this project was site speed, so my goal was to remove any backend overhead when serving the pages.  This led me to develop a simple boilerplate for generating a flat HTML site easily using Handlebars as the templating engine.  With one quick command the entire site is generated, compressed, and deployed.  A variation of the boilerplate can be found on [Stage Templates](https://github.com/stage-templates/html-handlebars).  Additionally, if you build the site without the ``--production`` flag a /docs page is created that shows examples of various UI elements.
+One of the things that was important to us for this project was site speed, so my goal was to remove any backend overhead when serving the pages.  I developed a simple boilerplate for generating a flat HTML site using Handlebars as the templating engine.  With one quick command the entire site is generated, compressed, and deployed.  A variation of the boilerplate can be found on [Stage Templates](https://github.com/stage-templates/html-handlebars).  Additionally, if you build the site without the ``--production`` flag a /docs page is created that shows examples of various UI elements.
 
 __Tags__  
 HTML5, PostCSS, cssnext, JavaScript, Handlebars, Build Tools, Gulp, UI, Responsive
 
 ## [Yeah Rocks!](https://yeah-rocks.org)
 
-Yeah Rocks! is an awesome organization that gives kids a place to start developing their skills and help them grow as musicians.  After their initial branding redesign they needed simple sites for each of their sub organizations to help parents and kids find a camp.  I created the initial designs for layout and content organization based on the style guides for their brands before implementing the frontend and backend programming.  Leveraging the WordPress Multisite feature with domain mapping I was able to quickly create four separate websites with a singular point for content management.
+Yeah Rocks! is an awesome organization that provides kids a place to begin developing their skills and help them grow as musicians.  After their initial branding redesign they needed simple sites for each of their sub organizations to help parents and kids find a camp.  I created the initial designs for layout and content organization based on the style guides for their brands before implementing the frontend and backend programming.  Leveraging the WordPress Multisite feature with domain mapping I was able to quickly create four separate websites with a singular point for content management.
 
 <div class="image-grid half">
     <p><img src="/assets/images/projects/yeah.jpg"/></p>
@@ -29,14 +29,14 @@ Yeah Rocks! is an awesome organization that gives kids a place to start developi
 </div>
 
 __Highlights__  
-Using PostCSS-cssnext in conjunction with the parent-child theming feature in WordPress the sites maintain similar feature sets and UI elements without having to replicate programming keeping the build nice and DRY.  By changing a few cssnext variables each site quickly has a unique look.  This build was created using WordPoser a fork of the Bedrock WordPress boilerplate that's ready to go with a common toolset for rapid development.
+Using PostCSS-cssnext in conjunction with the parent-child theming feature in WordPress all sites maintain similar feature sets and UI elements without having to replicate programming keeping the build nice and DRY.  By changing a few cssnext variables each site quickly has a unique look.  This build was created using WordPoser a fork of the Bedrock WordPress boilerplate that's ready to go with a common toolset for rapid development.
 
 __Tags__  
 HTML5, PostCSS, cssnext, JavaScript, UI, Design, Theming, PHP, WordPress, Bedrock, WordPoser, Multisite, Domain Mapping, Responsive
 
 ## [Dreamcatcher Events](http://dreamcatcher-events.com)
 
-Dreamcatcher Events is all about giving people an opportunity to learn, collaborate, and rock with their musical heroes in some of the most beautiful and exciting settings in the world.  Producing 8-15 camps a year that all require unique websites to be deployed within a short 2-3 month time frame.  I developed a common set of shared UI elements, layouts, and a workflow that helps produce a site in as little as 2 weeks.  I consulted with the Art Director on each camps design concept and then initiate frontend development on the site based on a simple style guide.  Content is organized and added to a singular CMS, in tandem with design and build process, which is the core of this rapid development process.
+Dreamcatcher Events is all about giving people an opportunity to learn, collaborate, and rock with their musical heroes in some of the most beautiful and exciting settings in the world.  Dreamcatcher produces 8-15 camps a year, that all require a unique design and are deployed within a short 2-3 month time frame. To tackle this requirement I developed a common set of shared UI elements, layouts, and a workflow that help to produce a site in as little as 2 weeks.  I consulted with the Art Director on each camps design concept and then initiate frontend development on the site based on a simple style guide.  Content is organized and added to a singular CMS, in tandem with design and build process, which is the core of this rapid development process.
 
 <div class="image-grid responsive">
     <p><img src="/assets/images/projects/dce.jpg"/></p>
@@ -51,7 +51,7 @@ HTML5, PostCSS, cssnext, JavaScript, Bootstrap, UI, Design, Theming, PHP, WordPr
 
 ## [Andy McKee](http://www.andymckee.com/)
 
-Andy McKee is an incredible guitarist with a fun personality.  His willingness to stay open to alternative ideas made this a fun site to work on.  I collaborated on the initial concepts and functionality before creating the remaining layouts, designs and programming.  In addition to an opportunity to work on some interesting parallax and CSS animation effects I was able to create a feature that manipulates the visual appearance based on the end users location and time of day.
+Andy McKee is an incredible guitarist with a fun personality.  His willingness to stay open to alternative ideas made this a fun site to work on.  I collaborated on the initial concepts and functionality before creating the remaining layouts, designs and programming.  In addition to an opportunity to work on some interesting parallax and CSS animation effects, I was able to create a feature that manipulates the visual appearance based on the end users location and time of day.
 
 <div class="image-grid responsive">
     <p><img src="/assets/images/projects/andy.jpg"/></p>
@@ -66,7 +66,7 @@ HTML5, PostCSS, cssnext, JavaScript, UI, Design, Adaptive UI, Theming, PHP, Word
 
 ## [Chauhan Nashville](https://chauhannashville.com)
 
-Just a simple restaurant website.  I worked on the initial design, layout, and programming and have added additional features during it's lifespan.
+Just a simple restaurant website.  I worked on the initial design, layout, and programming and have added additional features during its lifespan.
 
 <div class="image-grid">
     <p><img src="/assets/images/projects/chuahan.jpg"/></p>
