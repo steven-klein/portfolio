@@ -16,5 +16,4 @@ _Note: Some projects do not have direct links as they may be behind account wall
 
 ### Contact Details
 __Steven Klein__  
-[701-202-4976](tel:7012024976)  
 [steven.p.klein@gmail.com](steven.p.klein@gmail.com)
