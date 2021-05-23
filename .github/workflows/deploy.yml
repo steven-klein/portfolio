@@ -19,3 +19,4 @@ jobs:
         source_dir: docs
         publish_dir: docs
         publish_cname: sklein.io
+        publish_nojekyll: true
