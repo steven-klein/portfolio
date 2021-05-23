@@ -16,3 +16,6 @@ jobs:
       with:
         token: ${{ secrets.PERSONAL_TOKEN }} 
         source_branch: main
+        source_dir: docs
+        publish_dir: docs
+        publish_cname: sklein.io
