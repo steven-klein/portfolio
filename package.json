@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "My personal portfolio and resume as a GitBook",
   "main": "index.js",
   "directories": {
