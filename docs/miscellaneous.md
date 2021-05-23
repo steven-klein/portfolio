@@ -1,7 +1,17 @@
-# Mapping API Usage
+# Miscellaneous
+
+TODO: intro
+
+## The Full Stack
+
+### [Unique Set Demo]
+
+TODO: unique set demo
+
+## Mapping API Usage
 Mapping API's create so many possibilities for developers.  You can collect locations, display polygons or various zone and verify that a location exists within that polygon, provide users with directions, and so much more.  Plus, the interpolation of data sets into custom styled Maps is not only fun, it's a great way to visualize data.
 
-## [Nashville Food Deserts](https://steven-klein.github.io/TLC-Food-Deserts-and-Community-Centers/)
+### [Nashville Food Deserts](https://steven-klein.github.io/TLC-Food-Deserts-and-Community-Centers/)
 
 The Local Collaborative wants to make locally grown and produced goods available to everyone, especially to those who live in areas with limited access to grocers and transportation.  We've been working on a partnership with Community Centers, Libraries, and Public and Private Schools as potential pick up locations, specifically in food deserts.  Since accepting SNAP benefits online is still unavailable, the hope is we can handle SNAP transactions at affiliate pick up locations.  In order to really understand the viability of such an idea, we populated a map of the Nashville area with potential pickup locations and the USDA's data on food deserts.
 
@@ -15,7 +25,7 @@ This project required a quick turn around, but using an existing Mapbox map of t
 __Tags__  
 Mapbox, JavaScript, Chrome Developer Tools
 
-## [Attila The Pun Mongol Rally Route Progress](https://steven-klein.github.io/attilathepun.org/our-route/index.html)
+### [Attila The Pun Mongol Rally Route Progress](https://steven-klein.github.io/attilathepun.org/our-route/index.html)
 
 When your friends electively decide to drive across some of the most difficult terrain spanning Europe and Asia, in a vehicle specifically not designed to handle it, you want to keep tabs on their progress.  Using the data from a GPS tracking device, I created a custom map that displayed their planned route and actual route.
 
@@ -29,7 +39,7 @@ __Highlights__
 __Tags__  
 Mapbox, JavaScript, Geo Location
 
-## [Andy McKee Tour Dates](http://www.andymckee.com/tour/)
+### [Andy McKee Tour Dates](http://www.andymckee.com/tour/)
 
 Andy McKee plays all over the world, so when he wanted a tour dates listing, I immediately thought we should map it out.  
 

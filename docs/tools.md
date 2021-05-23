@@ -1,6 +1,10 @@
-# Dev Tools
+# DevOps and Tools
 
 Building a strong toolset for efficient development has been paramount for my career and is something that I'm constantly refining and improving.
+
+## [Infrastructure as Code]
+
+TODO: ars technica static servers to dynamic scaling with aws
 
 ## [Frontend Assets Boilerplate](https://github.com/steven-klein/rollup-postcss-cssnext)
 

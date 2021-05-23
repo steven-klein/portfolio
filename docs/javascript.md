@@ -1,4 +1,4 @@
-# JavaScript Libraries
+# JavaScript
 
 Like many developers before me, I found jQuery to be incredibly helpful, but today's options with Node, NPM, and ES2015 have pushed JavaScript development to the forefront of my mind, making it an area of heavy focus.
 
