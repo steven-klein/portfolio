@@ -9,4 +9,4 @@ cd _book
 git init
 git add -A
 git commit -m 'update book'
-git push -f git@github.com:steven-klein/portfolio.git master:gh-pages
+git push -f git@github.com:steven-klein/portfolio.git main:gh-pages

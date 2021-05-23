@@ -7,12 +7,14 @@
     "doc": "docs"
   },
   "dependencies": {
-    "gitbook-cli": "^2.3.0",
     "gitbook-plugin-download-pdf-link": "^2.0.0",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-links": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gitbook": "^2.6.9",
+    "gitbook-cli": "^2.3.2"
+  },
   "scripts": {
     "test": "npm run docs",
     "docs": "cd docs && gitbook install && gitbook serve",
