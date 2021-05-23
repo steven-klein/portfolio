@@ -17,6 +17,7 @@ jobs:
         token: ${{ secrets.PERSONAL_TOKEN }} 
         source_branch: main
         source_dir: docs
+        time_zone: America/Chicago
         publish_dir: docs
         publish_cname: sklein.io
         publish_nojekyll: true
