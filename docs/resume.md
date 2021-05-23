@@ -1,11 +1,25 @@
 # Summary
 
-An experienced full stack developer who’s equally comfortable developing on the frontend or backend, collaborating with others on design and strategies, discussing solutions with clients, and deploying products.  When I’m not actively engaged in projects I’m refining my development process.  I’m seeking out a role where my experience and existing skills can make a direct contribution as quickly as possible, but also provides me with new challenges to continue to grow as a developer.  I’m looking forward to working with talented individuals across the entire stack where I hope to be as inspirational to them as they surely will be to me.
+As an experienced full stack developer, I’m equally comfortable developing on the frontend and backend, collaborating with others on design and strategies, discussing solutions with stakeholders, and deploying products. When I’m not actively engaged in projects I’m refining my development process, refactoring for efficiency, and researching new tools. I’m seeking out a role where my experience and existing skills can make a direct contribution as quickly, but also provide me with new challenges to continue to grow as a developer and a leader.
 
 # Experience
 
+__Ars Technica/Condé Nast / _Lead Developer___  
+February 2013 - June 2017,  Remote
+
+* Develop on and maintain across the stack of the platform’s applications and infrastructure.
+* Collaborate with the Creative Director on composing modular responsive content components. 
+* Contribute to and refactor existing applications for modern patterns, bug fixes, and features.
+* Design and maintain the CI/CD pipelines and deployment strategies.
+* Develop containerized workflows and application environments for deployment.
+* Review peer contributions to the code base and approve pull requests.
+* Continuously deploy and manage the infrastructure via infrastructure as code strategies.
+* Manage web application firewalls and develop mitigation strategies for DDoS attacks.
+* Respond to user, staff, and corporate stakeholder feedback and requests.
+* Pitch concepts and features for increased user engagement and monetization on the platforms.
+
 __Breakstation Creative / _Director of Web Development___  
-February 2013 - Present,  Nashville, TN
+February 2013 - June 2017,  Nashville, TN
 
 * Work with team members and clients on multiple web based projects across the entire stack.
 * Develop build tools, libraries,  and deployment strategies.
@@ -18,7 +32,7 @@ February 2013 - Present,  Nashville, TN
 * Domain name, DNS, and SSL configuration and management.
 
 __The Local Collaborative / _Co-founder and CTO___  
-April 2015 - Present,  Nashville, TN
+April 2015 - June 2017,  Nashville, TN
 
 * Design, develop, deploy, and maintain all aspects of the platforms stack.
 * Co-manage business strategies and goals.
@@ -40,28 +54,28 @@ January 2010 - August 2012, New York, NY
 
 # Skills  
 
-__Web Development__  
-HTML5, CSS3, JavaScript (ES2015), PHP, MYSQL, DNS, HTTP, HTTP2, Apache, NGINX, SSL, Ajax, Analytics, JSON, REST, MVC, E-commerce, WAI-ARIA, Responsive Design
+__Development__  
+HTML, CSS, JavaScript, PHP, Sass, PostCSS, Node, MySQL, Docker, Nginx, Memcached, WAI-ARIA, A11Y, Responsive Design, REST, MVC, OOCSS, BEM, SMACSS
 
-__Dev Tools__  
-Git, NPM, Composer, Yarn, BrowserSync, PostCSS, Cssnext, Sass, Browserify, Rollup, Vagrant, Gulp, Node.js, Electron, BrowserStack, Babel, Buble
+__Tooling__  
+Git, NPM, Composer, Yarn, WebPack, Gulp, Grunt, Babel, Browserify, Rollup, Vagrant, Mailhog, BrowserStack, Homebrew, CLI tools with Node, K6, Puppeteer
 
 __Frameworks and Libraries__  
-Vue.js, jQuery, Bootstrap, Foundation, Wordpress, Laravel, Google Maps API, Leaflet, Handlebars, Lodash, Velocity.js, AWS SDK for PHP, AWS SDK for Javascript in the Browser, Mailgun
+Mithril, Vue, React, jQuery, Blade, Bootstrap, Laravel, WordPress, Google Maps API, Leaflet, Velocity.js, AWS SDK for PHP, AWS SDK for JavaScript, Animate.css, Tailwind
 
 __DevOps__  
-AWS EC2, AWS RDS (MySQL), AWS Route 53, AWS S3, AWS CloudFront, Digital Ocean, CloudFlare, Plesk, cPanel, Let's Encrypt
+Terraform, Ansible, Github Actions, EC2, Fargate, Application Load Balancer, WAF, CodeBuild, CodePipeline, RDS, Aurora, ElasticSearch, ElastiCache, Lambda, Route 53, S3, CloudFront, CloudFlare, Digital Ocean, Let's Encrypt
 
 __Miscellaneous__  
-Java, Adobe Photoshop, Adobe Lightroom, Photography, GitBook, Markdown, Documentation, rsync, Linux, apt, yum, Project Management, Teaching, Progressive/Universal Mobile Apps, AngularJS, PCI Compliance
+Java, Linux, MacOS, VS Code, Photoshop, Lightroom, Photography, Markdown, Documentation, Project Management, Teaching, PCI Compliance, Networking
+
+__Interests__  
+Go, Rust, Elixir, Progressive Web Apps, Web Components, Service Workers, Arduino, Raspberry Pi, Software Design Patterns
 
 # Education
 
-__Bismarck State College / _Associate of Arts and Science___  
-August 2005 - December 2007,  Bismarck, ND
-
 __University of Illinois Springfield / _Bachelor of Computer Science___  
-August 2014 - December 2017,  Off Campus
+May 2018, Summa Cum Laude - Software Development Capstone
 
 # Certifications
 
