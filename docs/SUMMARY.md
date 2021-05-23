@@ -2,13 +2,10 @@
 
 * [Introduction](README.md)
 
-### Projects
+### Work
 
-* [Websites](websites.md)
-* [Web Apps](webapps.md)
+* [Projects](projects.md)
 * [DevOps and Tools](tools.md)
-* [JavaScript](javascript.md)
-* [CSS](css.md)
 * [Miscellaneous](miscellaneous.md)
 
 ### Resume
@@ -21,4 +18,4 @@
 
 ### Downloads
 
-* [Formatted Resume](https://github.com/steven-klein/portfolio/raw/gh-pages/docs/assets/downloads/steven-klein-resume.pdf)
+* [Formatted Resume](https://github.com/steven-klein/portfolio/raw/gh-pages/assets/downloads/steven-klein-resume.pdf)

@@ -2,9 +2,86 @@
 
 Building a strong toolset for efficient development has been paramount for my career and is something that I'm constantly refining and improving.
 
-## [Infrastructure as Code]
+## Containers, Infrastructure as Code, and Blue/Green Deployments
 
-TODO: ars technica static servers to dynamic scaling with aws
+When I first started working at Ars Technica most of our infrastructure was managed by a third party using VMware vSphere, with a static number of application servers up at all times.  This was okay, but it didn't give us a way to dynamically scale the number of application servers based on traffic, which is great for maintaining a quality of service for your users and saving on infrstructure costs when traffic is light. It also left us with a panick inducing deployment method orchestrated by a build server that swapped out the code base on each node while it was actively receiving traffic. Finally, managing each server had to be done manually, taking it out of the cluster to run updates before putting it back in.  It required a lot of oversight from a small development team that really needed to be more focused on the codebase.  After making the decision to containerize the individual applications we had a new opportunity to reimagine the infrasructure we needed, reconsider how we'd want to manage that infrastructure, and to completely redesign our deployment strategy.
+
+We didn't really have a choice in using AWS as the provider, but with what it offered us it was the clear choice.  Our containerized apps could be deployed on Fargate with auto scaling policies that scaled-in and out based on the traffic we were receiving at the Application Load Balancer, the database and cache clusters could be managed easily with Aurora Serverless and ElastiCache, and our object store of course could use S3.  Beyond that we'd also be making use of ECS, EC2, ElsticSearch, CloudFront, ParameterStore, Lambda, CodeBuild, CodePipeline, CodeDeploy, WAF and more. Plus, with ECS, CodeDeploy, and Application Load Balancer we were able to design my favorite feature of this new stack: Blue/Green Deployments.
+
+With all of those peices of the puzzle determined now we needed to understand how best to manage it.  It was clearly too many services to manage just through the web console and ideally we'd have a history of changes and wanted to be able to duplicate the entire stack for a 1-to-1 staging environment, enter Terraform.  With Terraform's declarative language we can understand what the application infrastructure is composed of with out ever needing to open the web console.  Our changes are tracked in a Git repository making it easy to understand why things changed or roll back as needed and we have a staging stack that is as close to 1-to-1 with our production environment as you can get.  Using a tagging convention that includes the environment meant we could easily name and tag each resource we created by environment.
+
+```hcl
+locals {
+  project_name = "arx"
+
+  env = lower(var.workspace)
+
+  name_prefix = "${local.project_name}-${local.env}"
+
+  common_tags = {
+    Project     = local.project_name
+    Environment = local.env
+    Terraform   = "true"
+  }
+}
+
+/**
+ * APPLICATION LOAD BALANCER
+ */
+resource "aws_lb" "web_apps_alb" {
+  name               = "${local.name_prefix}-public-alb"
+  tags = merge(local.common_tags, { Name = "${local.name_prefix}-web-apps-public-alb" })
+}
+```
+
+<div class="image-grid">
+    <p><img src="/assets/images/projects/terraform.png"/></p>
+</div>
+
+__Highlights__  
+All told we had 190 different resources at work for each environment.  You'd think that would have meant we'd need a dedicated DevOps specialist to keep track of all of those resources, but containerized apps on AWS services managed by Terraform left us feeling really good about maintaining our infrastructure while continuing to contribute to the application codebase ourselves. To top it all off we reduced our infrastructure costs by 50%.
+
+__Tags__
+Terraform, DevOps, AWS
+
+## CLI AWS Secrets Management
+
+The AWS Systems Manager Parameter Store is a great tool for storing and providing secrets to applications.  It works especially well with containerized applications launched on AWS Fargate where you can define the path to the secrets necessary for the apps environment through the launchspec template.  Managing those secrets through the AWS console though can be a little cumbersome and make setting up local environments a complicated process.  There are some solid CLI tools already out there for this, Segmentio/Chamber being the best, but at Ars Technica we were managing a lot of secrets for multiple applications and environments with a custom naming convention that just didn't quite work with Segmentio/Chamber.  I also wanted import/export capabilities based on the .env format since most PHP applications manage local environment secrets that way.  Using the Yargs, AWS-SDK, and Dotenv packages from NPM I was able to create a Chamber clone that had everything we needed, nothing we didn't, and could be used in future applications. 
+
+__Highlights__  
+Having unique command line tools at your teams disposal saves time and energy.  They're realtively easy to compose and distribute using Node.js.
+
+__Tags__
+Node, CLI, Scripts, DevOps
+
+
+```sh
+# get help arguments wrapped in <> are required, [] are optional
+$ arx-chamber --help
+
+# get a single parameter store value <workspace> <app> <key>
+$ arx-chamber get development acta DB_HOST
+
+# set a single parameter store value <workspace> <app> <key> <value>
+$ arx-chamber set development acta DB_HOST localhost
+
+# delete a single parameter store value <workspace> <app> <key>
+$ arx-chamber delete development acta DB_HOST
+
+# list all parameters by path [workspace] [app] note: this is recursive, leave out [app] then [workspace] in that order to move up the path
+$ arx-chamber list development acta
+$ arx-chamber list development
+$ arx-chamber list
+
+# export that list to a json file
+$ arx-chamber list development acta > output.json
+
+# export to .env <workspace> <app> [filepath]
+$ arx-chamber export development acta output.env
+
+# import from a .env file <workspace> <app> [filepath]
+$ arx-chamber import development acta import.env
+```
 
 ## [Frontend Assets Boilerplate](https://github.com/steven-klein/rollup-postcss-cssnext)
 
