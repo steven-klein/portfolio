@@ -1,0 +1,43 @@
+body {
+    letter-spacing: normal;
+}
+
+.markdown-section a {
+    color: #2196F3;
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: .85em;
+}
+
+.image-grid.responsive p:first-of-type {
+    flex: 0 0 74.5%;
+}
+
+.image-grid.responsive p:last-of-type {
+    flex: 0 0 24.5%;
+}
+
+.image-grid.half p{
+    flex: 0 0 50%;
+}
+
+.image-grid.thirds p{
+    flex: 0 0 50%;
+}
+
+.image-grid.quarter p{
+    flex: 0 0 25%;
+}
+
+.image-grid p {
+    padding: .25em;
+    margin: 0 auto;
+}
+
+.image-grid img {
+    border: 1px solid #efefef;
+}
