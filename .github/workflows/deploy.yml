@@ -18,3 +18,4 @@ jobs:
         source_branch: main
         source_dir: docs
         publish_dir: docs
+        publish_cname: sklein.io
